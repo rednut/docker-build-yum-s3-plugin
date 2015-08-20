@@ -20,7 +20,7 @@ Ideal for rpm construction without a handy yum'able box.
   docker run \
     -i -t --rm \
     -v $PWD/yum-s3-plugin:/data \
-      rednut/yum-s3-plugin-builder
+        rednut/docker-build-yum-s3-plugin
 ```
 
 ## Check output
