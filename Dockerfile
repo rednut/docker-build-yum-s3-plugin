@@ -1,6 +1,5 @@
 FROM centos:6
 RUN \
-  yum upgrade -y && \
   yum install -y rpmdevtools git
 RUN \
   git clone https://github.com/jbraeuer/yum-s3-plugin.git && \
