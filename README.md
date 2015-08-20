@@ -1,6 +1,6 @@
 # Build yum-s3-plugin rpm package using docker
 
-This docker container will build an rpm package for `yum-s3-plugin` and drop the resulting rpm into the `/data` path / volume.
+This docker container will build an rpm package for `yum-s3-plugin` and drop the resulting rpm into the `/data` volume.
 
 Ideal for rpm construction without a handy yum'able box.
 
